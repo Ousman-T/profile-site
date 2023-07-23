@@ -5,6 +5,7 @@
 h1{
     text-align: center;
     text-decoration: underline;
+    display: flex;
 }
 
 img {
@@ -12,13 +13,35 @@ img {
 }
 
 #media{
-    display: flex;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
 
 }
 
 #eldenring{
-    justify-content: baseline;
+    justify-content: center;
+    border: 2px solid blue;
+    box-shadow: 10px 10px;
+    padding: 10px;
+}
+
+.header a {
+    /* display: flex;
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    align-items: center; */
+    padding: 30px;
+    align-items:center;
+    text-align: center;
+    background: blue;
+    color: white;
+    font-size: 30px;
+    box-shadow: 10px 10px black;
+
+}
+
+#bio-content {
+    display: flex;
+    flex-direction: column;
 }
