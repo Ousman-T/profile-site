@@ -5,11 +5,16 @@
 h1{
     text-align: center;
     text-decoration: underline;
-    display: flex;
+    /* display: flex; */
 }
 
 img {
-    border: 3px solid blue;
+    /* border: 3px solid blue;
+    margin-left: 25%; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 #media{
@@ -23,6 +28,7 @@ img {
     border: 2px solid blue;
     box-shadow: 10px 10px;
     padding: 10px;
+    margin-left: 50px;
 }
 
 .header a {
@@ -32,6 +38,7 @@ img {
     text-align: center;
     align-items: center; */
     padding: 30px;
+    margin-left: 50px;
     align-items:center;
     text-align: center;
     background: blue;
@@ -44,4 +51,9 @@ img {
 #bio-content {
     display: flex;
     flex-direction: column;
+}
+
+.main-content {
+    text-align: center;
+    font-size: large;
 }
