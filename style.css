@@ -23,6 +23,7 @@ h3 {
     height: 80px;
     display: block;
     background-color: #101010;
+    position: fixed;
 }
 
 .inner-header {
