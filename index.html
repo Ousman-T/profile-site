@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Orbitron&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Profile Website</title>
 </head>
 <body>
 
-    <header class="header">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="bio.html">Bio</a></li>
-            <li><a href="Exp.html">Experience</a></li>
-        </ul>
-    </header>
+    <div class="header">
+        <div class="inner-header">
+            <div class="logo-container">
+                <h1>My<span>SITE</span></h1>
+            </div>
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="bio.html"><li>Bio</li></a>
+                <a href="Exp.html"><li>Experience</li></a>
+            </ul>
+        </div>
+    </div>
     <br/>
     <br/>
     <div class="home-div">
@@ -34,18 +42,28 @@
             </p>
             
         </div>
-        <img src="https://stunningmotivation.com/wp-content/uploads/2021/10/why-hard-work-is-important.png" 
-        alt="Working Hard Photo"
-        height="400px"
-        width="600px">
+        <div class="img">
+
+            <img src="https://stunningmotivation.com/wp-content/uploads/2021/10/why-hard-work-is-important.png" 
+            alt="Working Hard Photo"
+            height="400px"
+            width="600px">
+        </div>
     </div>
     <br />
     <br />
-    <footer class="footer">
-        <p>Contact</p>
-        <p>About</p>
-        <p>Socials</p>
-    </footer>
+    <div class="header" id="footer">
+        <div class="inner-header">
+            <div class="logo-container">
+                <h1>MY<span>SITE</span></h1>
+            </div>
+            <ul class="navigation">
+                <a href="index.html"><li>Home</li></a>
+                <a href="bio.html"><li>Bio</li></a>
+                <a href="Exp.html"><li>Experience</li></a>
+            </ul>
+        </div>
+    </div>
 
 
     <script src="script.js"></script>
