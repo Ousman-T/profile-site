@@ -98,3 +98,24 @@ h3 {
     width: 50%;
 
 }
+
+img {
+    border: 2px solid #101010;
+    box-shadow: 4px 4px black;
+}
+
+iframe {
+    border: 2px solid #101010;
+    box-shadow: 4px 4px black;
+}
+
+.personal-hobbies {
+    text-align: center;
+}
+
+.h3{
+    text-align: center;
+}
+.bio-ol {
+    text-align: center;
+}
